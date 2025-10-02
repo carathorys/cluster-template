@@ -61,7 +61,7 @@ There are **5 stages** outlined below for completing this project, make sure you
 
     ```sh
     export REPONAME="home-ops"
-    gh repo create $REPONAME --template onedr0p/cluster-template --disable-wiki --public --clone && cd $REPONAME
+    gh repo create $REPONAME --template carathorys/cluster-template --disable-wiki --public --clone && cd $REPONAME
     ```
 
 2. **Install** the [Mise CLI](https://mise.jdx.dev/getting-started.html#installing-mise-cli) on your workstation.
@@ -220,7 +220,7 @@ The `external-dns` application created in the `network` namespace will handle cr
 ### 🏠 Home DNS
 
 > [!TIP]
-> Use the `internal` gateway on `HTTPRoutes` to make applications private to your network. If you're having trouble with internal DNS resolution check out [this](https://github.com/onedr0p/cluster-template/discussions/719) GitHub discussion.
+> Use the `internal` gateway on `HTTPRoutes` to make applications private to your network. If you're having trouble with internal DNS resolution check out [this](https://github.com/carathorys/cluster-template/discussions/719) GitHub discussion.
 
 `k8s_gateway` will provide DNS resolution to external Kubernetes resources (i.e. points of entry to the cluster) from any device that uses your home DNS server. For this to work, your home DNS server must be configured to forward DNS queries for `${cloudflare_domain}` to `${cluster_dns_gateway_addr}` instead of the upstream DNS server(s) it normally uses. This is a form of **split DNS** (aka split-horizon DNS / conditional forwarding).
 
@@ -402,7 +402,7 @@ Community member [@whazor](https://github.com/whazor) created [Kubesearch](https
 
 ### Community
 
-- Make a post in this repository's Github [Discussions](https://github.com/onedr0p/cluster-template/discussions).
+- Make a post in this repository's Github [Discussions](https://github.com/carathorys/cluster-template/discussions).
 - Start a thread in the `#support` or `#cluster-template` channels in the [Home Operations](https://discord.gg/home-operations) Discord server.
 
 ### GitHub Sponsors
@@ -438,11 +438,11 @@ If this repo is too hot to handle or too cold to hold check out these following 
 
 <div align="center">
 
-<a href="https://star-history.com/#onedr0p/cluster-template&Date">
+<a href="https://star-history.com/#carathorys/cluster-template&Date">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=onedr0p/cluster-template&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=onedr0p/cluster-template&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=onedr0p/cluster-template&type=Date" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=carathorys/cluster-template&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=carathorys/cluster-template&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=carathorys/cluster-template&type=Date" />
   </picture>
 </a>
 

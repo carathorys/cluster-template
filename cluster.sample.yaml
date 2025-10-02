@@ -44,7 +44,7 @@ cluster_dns_gateway_addr: ""
 cluster_gateway_addr: ""
 
 # -- GitHub repository
-#    (REQUIRED) / (e.g. "onedr0p/cluster-template")
+#    (REQUIRED) / (e.g. "carathorys/cluster-template")
 repository_name: ""
 
 # -- GitHub repository branch
