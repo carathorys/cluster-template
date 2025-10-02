@@ -82,3 +82,16 @@ cloudflare_gateway_addr: ""
 # -- The BGP node ASN
 # (OPTIONAL) / (e.g. "64514")
 # cilium_bgp_node_asn: ""
+
+# -- Bitwarden Secrets Manager organization ID
+# (REQUIRED) / (e.g. "00000000-0000-0000-0000-000000000000")
+# bitwarden_org_id: ""
+
+# -- Bitwarden Secrets Manager project ID
+# (OPTIONAL) / (e.g. "00000000-0000-0000-0000-000000000000")
+# bitwarden_project_id: ""
+
+# -- Bitwarden Secrets Manager access-token
+# (OPTIONAL) / (e.g. "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
+# bitwarden_access_token: ""
+
